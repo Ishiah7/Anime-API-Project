@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 7%;
+  height: 6vh;
+  width: 100%;
+  background: lightcoral;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 7px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.nav a:hover {
+  color: grey;
+  font-size: 19px;
+  border-right: 1px solid lightslategray;
+  border-left: 1px solid lightslategray;
+}
+
+.head {
+  border-bottom: 2px solid black;
+  border-width: 2%;
+  text-align: center;
+  margin-bottom: 5%;
+  font-family: "Amatic SC", Courier, monospace;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: rgba(128, 128, 128, 0.3);
+  margin-bottom: 10%;
+}
+
+.info h2 {
+  margin-right: 2%;
+  font-size: 1.7rem;
+  font-family: "Great Vibes", "Courier", "monospace";
+}
+
+.info p {
+  width: 60%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+  font-size: 1.3rem;
+  color: black;
+  font-family: "Cormorant Garamond", "Courier", "monospace";
+}
+
+.info img {
+  border: 1px solid black;
+  margin-left: 2%;
+}
